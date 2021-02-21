@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738205298239",
+    "project_id": "tent-dc59a",
+    "storage_bucket": "tent-dc59a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738205298239:android:7283c3c182e9cc8b3d928a",
+        "android_client_info": {
+          "package_name": "com.kushalsharma.tent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738205298239-7a1e0lqoqscpi3osn106qggd94lq6dgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo5H8mdVYl3luZZKNCkvwzSPozz4ObE2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738205298239-7a1e0lqoqscpi3osn106qggd94lq6dgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
