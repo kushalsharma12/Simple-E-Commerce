@@ -69,7 +69,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
@@ -111,8 +110,11 @@ class MainActivity : AppCompatActivity() {
         if(firebaseUser != null){
 
             val user = User(firebaseUser.uid, firebaseUser.displayName,
-                    firebaseUser.photoUrl.toString(), firebaseUser.phoneNumber.toString(),
-                    mphoneNumber = textView2.text.toString())
+                    firebaseUser.photoUrl.toString(),
+                    userAddress = address.text.toString(),
+                    mphoneNumber = textView2.text.toString(),
+                    firebaseUser.phoneNumber.toString()
+                    )
             val userDao = UserDao()
             userDao.addUser(user)
 

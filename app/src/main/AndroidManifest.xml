@@ -12,9 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TENT"
-        tools:ignore="AllowBackup"
-        >
-        <activity android:name=".OrderingActivity"></activity>
+        tools:ignore="AllowBackup">
+        <activity android:name=".mind"></activity>
+        <activity android:name=".time" />
+        <activity android:name=".OrderingActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

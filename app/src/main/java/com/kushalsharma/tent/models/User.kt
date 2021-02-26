@@ -9,5 +9,5 @@ data class User
         val imageUrl : String = "",
         val userAddress : String = "",
         val mphoneNumber : String = "",
-        val phoneNumber : String = ""
+        val phoneNumber : String = "",
             )
