@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TENT"
         tools:ignore="AllowBackup">
-        <activity android:name=".mind"></activity>
+        <activity android:name=".cart"></activity>
+        <activity android:name=".mind" />
         <activity android:name=".time" />
         <activity android:name=".OrderingActivity" />
         <activity android:name=".MainActivity">

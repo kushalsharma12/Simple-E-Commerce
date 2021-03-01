@@ -45,14 +45,27 @@
          tools:layout_editor_absoluteX="169dp"
          tools:layout_editor_absoluteY="64dp" />
 
-<!--            <Button-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintRight_toRightOf="parent"-->
-<!--                android:background="#FFC107"-->
-<!--                android:id="@+id/itemsOrderButton"-->
-<!--                android:text="Order"/>-->
+            <ImageView
+                android:id="@+id/imagee"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:background="#FFC107"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:id="@+id/itemCartBtn"
+                android:text="Order"/>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

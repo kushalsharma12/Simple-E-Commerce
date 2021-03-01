@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/orderName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="orderName : "
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/orderPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price : "
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/placedAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Placed At : "
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/placedBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Placed By : "
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/userPhNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ph No. : "
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/userAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address. : "
+                android:textSize="28sp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

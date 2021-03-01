@@ -18,7 +18,7 @@ import kotlinx.android.synthetic.main.activity_time.*
 data class timeModel(
 
         val itemName: String = "",
-        val itemPrice: String = ""
+        val itemPrice: String = "",
 )
 
 
